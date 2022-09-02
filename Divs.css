@@ -1,0 +1,207 @@
+body {background-color: #151618}
+body::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 1em rgb(27, 0, 78);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: #4158D0;
+    background-image: linear-gradient(180deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);    
+  }
+  .AboutDiv {
+    border-radius: 25px;
+    border: 2px outset aliceblue;
+    border-width: 4px;
+    background-color: transparent;
+    text-align: center;
+    padding: 20px;
+    width: 490px;
+    height: 150px;
+      }
+      .Tools1 {
+        border-radius: 25px;
+        border: 2px outset aliceblue;
+        border-width: 4px;
+        background-color: transparent;
+        text-align: center;
+        padding: 20px;
+        width: 290px;
+        height: 470px;
+        float: left;
+          }
+          .Tools2 {
+            border-radius: 25px;
+            border: 2px outset aliceblue;
+            border-width: 4px;
+            background-color: transparent;
+            text-align: center;
+            padding: 20px;
+            width: 290px;
+            height: 470px;
+            display: inline-block;
+            margin: 0 auto;
+              }
+  
+              .Tools3 {
+                border-radius: 25px;
+                border: 2px outset aliceblue;
+                border-width: 4px;
+                background-color: transparent;
+                text-align: center;
+                padding: 20px;
+                width: 290px;
+                height: 470px;
+                float: right;
+                  }
+                  .AboutAllsec > div
+                  {
+                    text-align: center;
+                  }
+                  .Visuals1 {
+                    border-radius: 25px;
+                    border: 2px outset aliceblue;
+                    border-width: 4px;
+                    background-color: transparent;
+                    text-align: center;
+                    padding: 20px;
+                    width: 750px;
+                    height: 50px;
+                    display: inline-block;
+                    margin: 0 auto;
+                      }
+                      .TOSDIV
+                      {
+                        overflow-y: auto;
+                        max-height: auto;
+                    }
+                      .TOSDIV 
+                      {
+                        
+                        border-radius: 25px;
+                        border: 2px outset aliceblue;
+                        border-width: 4px;
+                        background-color: transparent;
+                        text-align: center;
+                        padding: 20px;
+                        width: 1500px;
+                        height: 600px;
+                        display: inline-block;
+                        margin: 0 auto;
+                          }
+                      
+         .btn-grad {background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%)}
+         .btn-grad {
+            margin: 5px;
+            padding: 20px 45px;
+            text-align: center;
+            width: auto;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px rgb(0, 20, 75);
+            border-radius: 10px;
+            display: inline-block;
+            margin: 0 auto;
+            font-size: 18px;
+    font-size: 18px;
+    color: #ffffff;
+    font-family:'Courier New';
+    font-weight: bolder;
+
+}
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+
+         /* unvisited link */
+         .loginbutton {background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%)}
+         .loginbutton {
+            margin: 5px;
+            padding: 20px 45px;
+            text-align: center;
+            width: auto;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px rgb(0, 20, 75);
+            border-radius: 10px;
+            float: right;
+    font-size: 18px;
+    color: #ffffff;
+    font-family:'Courier New';
+    font-weight: bolder;
+
+}
+    
+
+         .loginbutton hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         /* unvisited link */
+
+a:link {
+    color: aliceblue
+  }
+  
+  /* visited link */
+  a:visited {
+    color: aliceblue
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: aliceblue
+  }
+  
+  /* selected link */
+  a:active {
+    color: aliceblue
+  }
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+  
+  .container{
+    display: inline-block;
+  }
+  .typed-out
+  {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    animation: typing 2s steps(200, end) forwards, blinking .8s infinite;
+    font-size: 1.2rem;
+    width: 0;
+    font-weight: bolder;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blinking {
+    from { border-color: transparent }
+    to { border-color: orange; }
+  }
+  
